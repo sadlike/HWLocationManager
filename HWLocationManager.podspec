@@ -24,10 +24,8 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
-
-  s.homepage     = "http://EXAMPLE/HWLocationManager"
+  s.description  = "获取定位地址"
+  s.homepage     = "http://HWLocationManager/HWLocationManager"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +36,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "wwp"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -90,7 +88,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "HWLocationManager", "HWLocationManager/**/*.{h,m}"
+  s.source_files  = "*"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -116,8 +114,8 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "UIKit"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.framework  = "UIKit"
+  s.frameworks = "CoreLocation", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
