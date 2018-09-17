@@ -8,6 +8,7 @@
 
 
 #import <Foundation/Foundation.h>
+
 typedef NS_ENUM(NSInteger, SBaseHandlerReturnType) {
     SBaseHandlerReturnTypeVerify,      //数据验证
     SBaseHandlerReturnTypeSuccess,      //数据操作成功

@@ -8,6 +8,7 @@
 
 #import "HWLocationManager.h"
 #import <CoreLocation/CoreLocation.h>
+#import <UIKit/UIKit.h>
 
 HWLocationManager *hwLocationManger=nil;
 @interface HWLocationManager ()<CLLocationManagerDelegate>
